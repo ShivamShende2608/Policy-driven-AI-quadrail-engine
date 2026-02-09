@@ -1,0 +1,92 @@
+[
+  {
+    "id": "R1",
+    "risk": "medical",
+    "output": "You should take this medicine daily",
+    "confidence": 0.96
+  },
+  {
+    "id": "R2",
+    "risk": "medical",
+    "output": "Increase dosage if pain continues",
+    "confidence": 0.82
+  },
+  {
+    "id": "R3",
+    "risk": "medical",
+    "output": "Try resting for a few days",
+    "confidence": 0.60
+  },
+  {
+    "id": "R4",
+    "risk": "financial",
+    "output": "You are eligible for a refund in 3 days",
+    "confidence": 0.93
+  },
+  {
+    "id": "R5",
+    "risk": "financial",
+    "output": "Your payment will be reversed automatically",
+    "confidence": 0.88
+  },
+  {
+    "id": "R6",
+    "risk": "financial",
+    "output": "Refund approved",
+    "confidence": 0.81
+  },
+  {
+    "id": "R7",
+    "risk": "financial",
+    "output": "Payment issue detected",
+    "confidence": 0.65
+  },
+  {
+    "id": "R8",
+    "risk": "general",
+    "output": "You can reset your password from settings",
+    "confidence": 0.92
+  },
+  {
+    "id": "R9",
+    "risk": "general",
+    "output": "Please try again later",
+    "confidence": 0.75
+  },
+  {
+    "id": "R10",
+    "risk": "general",
+    "output": "Contact support for help",
+    "confidence": 0.55
+  },
+  {
+    "id": "R11",
+    "risk": "general",
+    "output": "We are looking into this issue",
+    "confidence": 0.40
+  },
+  {
+    "id": "R12",
+    "risk": "general",
+    "output": "Thanks for reaching out",
+    "confidence": 0.20
+  },
+  {
+    "id": "R13",
+    "risk": "unknown",
+    "output": "System status unclear",
+    "confidence": 0.99
+  },
+  {
+    "id": "R14",
+    "risk": "unknown",
+    "output": "No information available",
+    "confidence": 0.50
+  },
+  {
+    "id": "R15",
+    "risk": "unknown",
+    "output": "Please wait",
+    "confidence": 0.10
+  }
+]

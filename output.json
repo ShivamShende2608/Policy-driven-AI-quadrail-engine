@@ -1,0 +1,131 @@
+[
+  {
+    "id": "R1",
+    "decision": "block",
+    "applied_policies": [
+      "MED_BLOCK"
+    ],
+    "final_output": "Output blocked by policy",
+    "reason": "medical risk; confidence 0.96; output blocked"
+  },
+  {
+    "id": "R2",
+    "decision": "block",
+    "applied_policies": [
+      "MED_BLOCK"
+    ],
+    "final_output": "Output blocked by policy",
+    "reason": "medical risk; confidence 0.82; output blocked"
+  },
+  {
+    "id": "R3",
+    "decision": "block",
+    "applied_policies": [
+      "MED_BLOCK"
+    ],
+    "final_output": "Output blocked by policy",
+    "reason": "medical risk; confidence 0.6; output blocked"
+  },
+  {
+    "id": "R4",
+    "decision": "sanitize",
+    "applied_policies": [
+      "FIN_STRICT"
+    ],
+    "final_output": "This response cannot be shown. Please consult a qualified professional.",
+    "reason": "financial risk; confidence 0.93; output sanitized for safety"
+  },
+  {
+    "id": "R5",
+    "decision": "escalate",
+    "applied_policies": [
+      "FIN_STRICT"
+    ],
+    "final_output": "Sent for human review",
+    "reason": "financial risk; confidence 0.88 < required 0.9 (FIN_STRICT); requires human review"
+  },
+  {
+    "id": "R6",
+    "decision": "escalate",
+    "applied_policies": [
+      "FIN_STRICT"
+    ],
+    "final_output": "Sent for human review",
+    "reason": "financial risk; confidence 0.81 < required 0.9 (FIN_STRICT); requires human review"
+  },
+  {
+    "id": "R7",
+    "decision": "block",
+    "applied_policies": [
+      "FIN_RELAXED"
+    ],
+    "final_output": "Output blocked by policy",
+    "reason": "financial risk; confidence 0.65 < required 0.8 (FIN_RELAXED); output blocked"
+  },
+  {
+    "id": "R8",
+    "decision": "sanitize",
+    "applied_policies": [
+      "GEN_SANITIZE"
+    ],
+    "final_output": "This response cannot be shown. Please consult a qualified professional.",
+    "reason": "general risk; confidence 0.92; output sanitized for safety"
+  },
+  {
+    "id": "R9",
+    "decision": "sanitize",
+    "applied_policies": [
+      "GEN_SANITIZE"
+    ],
+    "final_output": "This response cannot be shown. Please consult a qualified professional.",
+    "reason": "general risk; confidence 0.75; output sanitized for safety"
+  },
+  {
+    "id": "R10",
+    "decision": "block",
+    "applied_policies": [
+      "GEN_ALLOW"
+    ],
+    "final_output": "Output blocked by policy",
+    "reason": "general risk; confidence 0.55 < required 0.7 (GEN_ALLOW); output blocked"
+  },
+  {
+    "id": "R11",
+    "decision": "block",
+    "applied_policies": [
+      "GEN_ALLOW"
+    ],
+    "final_output": "Output blocked by policy",
+    "reason": "general risk; confidence 0.4 < required 0.7 (GEN_ALLOW); output blocked"
+  },
+  {
+    "id": "R12",
+    "decision": "block",
+    "applied_policies": [
+      "GEN_ALLOW"
+    ],
+    "final_output": "Output blocked by policy",
+    "reason": "general risk; confidence 0.2 < required 0.7 (GEN_ALLOW); output blocked"
+  },
+  {
+    "id": "R13",
+    "decision": "block",
+    "applied_policies": [],
+    "final_output": "Output blocked by policy",
+    "reason": "No policies found for risk type 'unknown'; applied default action"
+  },
+  {
+    "id": "R14",
+    "decision": "block",
+    "applied_policies": [],
+    "final_output": "Output blocked by policy",
+    "reason": "No policies found for risk type 'unknown'; applied default action"
+  },
+  {
+    "id": "R15",
+    "decision": "block",
+    "applied_policies": [],
+    "final_output": "Output blocked by policy",
+    "reason": "No policies found for risk type 'unknown'; applied default action"
+  }
+]

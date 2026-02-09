@@ -1,0 +1,41 @@
+{
+  "policies": [
+    {
+      "id": "MED_STRICT",
+      "risk": "medical",
+      "allowed_actions": ["escalate"],
+      "min_confidence": 0.95
+    },
+    {
+      "id": "MED_BLOCK",
+      "risk": "medical",
+      "allowed_actions": ["block"],
+      "min_confidence": 0.0
+    },
+    {
+      "id": "FIN_STRICT",
+      "risk": "financial",
+      "allowed_actions": ["sanitize", "escalate"],
+      "min_confidence": 0.9
+    },
+    {
+      "id": "FIN_RELAXED",
+      "risk": "financial",
+      "allowed_actions": ["allow"],
+      "min_confidence": 0.8
+    },
+    {
+      "id": "GEN_ALLOW",
+      "risk": "general",
+      "allowed_actions": ["allow"],
+      "min_confidence": 0.7
+    },
+    {
+      "id": "GEN_SANITIZE",
+      "risk": "general",
+      "allowed_actions": ["sanitize"],
+      "min_confidence": 0.0
+    }
+  ],
+  "default_action": "block"
+}
