@@ -12,7 +12,7 @@ This engine sits between an AI system and end users, enforcing safety policies b
 ## How to Run
 
 ### Prerequisites
-- Python 3.7+
+- Python 3.10+
 - No external dependencies required
 
 ### Execution
